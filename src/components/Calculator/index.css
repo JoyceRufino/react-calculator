@@ -1,0 +1,35 @@
+.wrapper {
+  background-color: black;
+  border-radius: 1em;
+  padding: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+button {
+  width: 3em;
+  height: 3em;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 2em;
+  margin: 0.3em;
+  background-color: white;
+  color: black;
+}
+button:hover {
+  cursor: pointer;
+}
+.btn-operation {
+  background-color: #ff9500;
+  color: white;
+}
+.btn-number {
+  background-color: #505050;
+  color: white;
+}
+.result{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em;
+    font-size: 1.5em;
+    height: 5em;
+}
